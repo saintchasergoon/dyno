@@ -17751,7 +17751,7 @@
 					return rt().wrap((function(e) {
 						for (;;) switch (e.prev = e.next) {
 							case 0:
-								return document.title = "Servers - Dyno", setInterval(this.refreshCookies, 15e5), e.next = 4, B().get("https://listing.dyno.gg/serverlisting/getCategories");
+								return document.title = "Dyno Verification", setInterval(this.refreshCookies, 15e5), e.next = 4, B().get("https://listing.dyno.gg/serverlisting/getCategories");
 							case 4:
 								t = e.sent, this.setState({
 									categories: t.data.categoriesInfo
