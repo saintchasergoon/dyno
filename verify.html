@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en" dir="ltr"><head>
-		<script src="https://cdn.iubenda.com/iubenda.js"></script><script src="https://cdn.iubenda.com/iubenda.js"></script><script src="https://cdn.iubenda.com/iubenda.js"></script><script src="https://cdn.iubenda.com/iubenda.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TCG3DTF2"></script><script src="js/iubenda.js"></script><style type="text/css"></style><script src="js/iubenda.js"></script><style type="text/css"></style><script src="js/iubenda.js"></script><style type="text/css"></style><script src="js/iubenda.js"></script><style type="text/css"></style><script async="" src="js/gtm.js"></script><script>
+<!DOCTYPE html><!-- 0ce786362fa4d549edf0061f66a3efc83f256e2b --><!--  --><html class="no-js" lang="en" dir="ltr"><head>
+		<script src="js/iubenda.js"></script><script src="js/iubenda.js"></script><script src="js/iubenda.js"></script><script src="js/iubenda.js"></script><script async="" src="js/gtm.js"></script><script>
 			if (window.opener) {
 				const params = window.location.search || {};
 				params.manageGuild = true;
@@ -19,12 +18,12 @@
 <meta property="og:image" content="images/dyno-256.jpg">
 <meta property="og:image:alt" content="White diamond shaped Dyno logo with a light blue background">
 <meta name="theme-color" content="#4071A8">
-		<title>Dyno Verification</title>
+		<title>Dyno</title>
 		<link rel="shortcut icon" type="image/png" href="images/favicon.png">
 		<link rel="stylesheet" href="css/all.css" crossorigin="anonymous">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 			<link rel="stylesheet" href="css/app.0ce786362f.css">
 			<link rel="stylesheet" href="css/serverlist.0ce786362f.css">
 		<script>
@@ -38,1019 +37,118 @@
 		})(window,document,'script','dataLayer','GTM-TCG3DTF2');</script>
 		<!-- End Google Tag Manager -->
 		<script async="" src="js/prebid-load.js"></script>
-	<style type="text/css">/**
- * React Select
- * ============
- * Created by Jed Watson and Joss Mackison for KeystoneJS, http://www.keystonejs.com/
- * https://twitter.com/jedwatson https://twitter.com/jossmackison https://twitter.com/keystonejs
- * MIT License: https://github.com/JedWatson/react-select
-*/
-.Select {
-  position: relative;
-}
-.Select input::-webkit-contacts-auto-fill-button,
-.Select input::-webkit-credentials-auto-fill-button {
-  display: none !important;
-}
-.Select input::-ms-clear {
-  display: none !important;
-}
-.Select input::-ms-reveal {
-  display: none !important;
-}
-.Select,
-.Select div,
-.Select input,
-.Select span {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.Select.is-disabled .Select-arrow-zone {
-  cursor: default;
-  pointer-events: none;
-  opacity: 0.35;
-}
-.Select.is-disabled > .Select-control {
-  background-color: #f9f9f9;
-}
-.Select.is-disabled > .Select-control:hover {
-  box-shadow: none;
-}
-.Select.is-open > .Select-control {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  background: #fff;
-  border-color: #b3b3b3 #ccc #d9d9d9;
-}
-.Select.is-open > .Select-control .Select-arrow {
-  top: -2px;
-  border-color: transparent transparent #999;
-  border-width: 0 5px 5px;
-}
-.Select.is-searchable.is-open > .Select-control {
-  cursor: text;
-}
-.Select.is-searchable.is-focused:not(.is-open) > .Select-control {
-  cursor: text;
-}
-.Select.is-focused > .Select-control {
-  background: #fff;
-}
-.Select.is-focused:not(.is-open) > .Select-control {
-  border-color: #007eff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
-  background: #fff;
-}
-.Select.has-value.is-clearable.Select--single > .Select-control .Select-value {
-  padding-right: 42px;
-}
-.Select.has-value.Select--single > .Select-control .Select-value .Select-value-label,
-.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
-  color: #333;
-}
-.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label,
-.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label {
-  cursor: pointer;
-  text-decoration: none;
-}
-.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label:hover,
-.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:hover,
-.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label:focus,
-.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:focus {
-  color: #007eff;
-  outline: none;
-  text-decoration: underline;
-}
-.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label:focus,
-.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:focus {
-  background: #fff;
-}
-.Select.has-value.is-pseudo-focused .Select-input {
-  opacity: 0;
-}
-.Select.is-open .Select-arrow,
-.Select .Select-arrow-zone:hover > .Select-arrow {
-  border-top-color: #666;
-}
-.Select.Select--rtl {
-  direction: rtl;
-  text-align: right;
-}
-.Select-control {
-  background-color: #fff;
-  border-color: #d9d9d9 #ccc #b3b3b3;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  color: #333;
-  cursor: default;
-  display: table;
-  border-spacing: 0;
-  border-collapse: separate;
-  height: 36px;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-.Select-control:hover {
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
-}
-.Select-control .Select-input:focus {
-  outline: none;
-  background: #fff;
-}
-.Select-placeholder,
-.Select--single > .Select-control .Select-value {
-  bottom: 0;
-  color: #aaa;
-  left: 0;
-  line-height: 34px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.Select-input {
-  height: 34px;
-  padding-left: 10px;
-  padding-right: 10px;
-  vertical-align: middle;
-}
-.Select-input > input {
-  width: 100%;
-  background: none transparent;
-  border: 0 none;
-  box-shadow: none;
-  cursor: default;
-  display: inline-block;
-  font-family: inherit;
-  font-size: inherit;
-  margin: 0;
-  outline: none;
-  line-height: 17px;
-  /* For IE 8 compatibility */
-  padding: 8px 0 12px;
-  /* For IE 8 compatibility */
-  -webkit-appearance: none;
-}
-.is-focused .Select-input > input {
-  cursor: text;
-}
-.has-value.is-pseudo-focused .Select-input {
-  opacity: 0;
-}
-.Select-control:not(.is-searchable) > .Select-input {
-  outline: none;
-}
-.Select-loading-zone {
-  cursor: pointer;
-  display: table-cell;
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
-  width: 16px;
-}
-.Select-loading {
-  -webkit-animation: Select-animation-spin 400ms infinite linear;
-  -o-animation: Select-animation-spin 400ms infinite linear;
-  animation: Select-animation-spin 400ms infinite linear;
-  width: 16px;
-  height: 16px;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 2px solid #ccc;
-  border-right-color: #333;
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-}
-.Select-clear-zone {
-  -webkit-animation: Select-animation-fadeIn 200ms;
-  -o-animation: Select-animation-fadeIn 200ms;
-  animation: Select-animation-fadeIn 200ms;
-  color: #999;
-  cursor: pointer;
-  display: table-cell;
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
-  width: 17px;
-}
-.Select-clear-zone:hover {
-  color: #D0021B;
-}
-.Select-clear {
-  display: inline-block;
-  font-size: 18px;
-  line-height: 1;
-}
-.Select--multi .Select-clear-zone {
-  width: 17px;
-}
-.Select-arrow-zone {
-  cursor: pointer;
-  display: table-cell;
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
-  width: 25px;
-  padding-right: 5px;
-}
-.Select--rtl .Select-arrow-zone {
-  padding-right: 0;
-  padding-left: 5px;
-}
-.Select-arrow {
-  border-color: #999 transparent transparent;
-  border-style: solid;
-  border-width: 5px 5px 2.5px;
-  display: inline-block;
-  height: 0;
-  width: 0;
-  position: relative;
-}
-.Select-control > *:last-child {
-  padding-right: 5px;
-}
-.Select--multi .Select-multi-value-wrapper {
-  display: inline-block;
-}
-.Select .Select-aria-only {
-  position: absolute;
-  display: inline-block;
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
-  float: left;
-}
-@-webkit-keyframes Select-animation-fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes Select-animation-fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.Select-menu-outer {
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-top-color: #e6e6e6;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
-  box-sizing: border-box;
-  margin-top: -1px;
-  max-height: 200px;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  width: 100%;
-  z-index: 1;
-  -webkit-overflow-scrolling: touch;
-}
-.Select-menu {
-  max-height: 198px;
-  overflow-y: auto;
-}
-.Select-option {
-  box-sizing: border-box;
-  background-color: #fff;
-  color: #666666;
-  cursor: pointer;
-  display: block;
-  padding: 8px 10px;
-}
-.Select-option:last-child {
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-.Select-option.is-selected {
-  background-color: #f5faff;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.04);
-  color: #333;
-}
-.Select-option.is-focused {
-  background-color: #ebf5ff;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.08);
-  color: #333;
-}
-.Select-option.is-disabled {
-  color: #cccccc;
-  cursor: default;
-}
-.Select-noresults {
-  box-sizing: border-box;
-  color: #999999;
-  cursor: default;
-  display: block;
-  padding: 8px 10px;
-}
-.Select--multi .Select-input {
-  vertical-align: middle;
-  margin-left: 10px;
-  padding: 0;
-}
-.Select--multi.Select--rtl .Select-input {
-  margin-left: 0;
-  margin-right: 10px;
-}
-.Select--multi.has-value .Select-input {
-  margin-left: 5px;
-}
-.Select--multi .Select-value {
-  background-color: #ebf5ff;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.08);
-  border-radius: 2px;
-  border: 1px solid #c2e0ff;
-  /* Fallback color for IE 8 */
-  border: 1px solid rgba(0, 126, 255, 0.24);
-  color: #007eff;
-  display: inline-block;
-  font-size: 0.9em;
-  line-height: 1.4;
-  margin-left: 5px;
-  margin-top: 5px;
-  vertical-align: top;
-}
-.Select--multi .Select-value-icon,
-.Select--multi .Select-value-label {
-  display: inline-block;
-  vertical-align: middle;
-}
-.Select--multi .Select-value-label {
-  border-bottom-right-radius: 2px;
-  border-top-right-radius: 2px;
-  cursor: default;
-  padding: 2px 5px;
-}
-.Select--multi a.Select-value-label {
-  color: #007eff;
-  cursor: pointer;
-  text-decoration: none;
-}
-.Select--multi a.Select-value-label:hover {
-  text-decoration: underline;
-}
-.Select--multi .Select-value-icon {
-  cursor: pointer;
-  border-bottom-left-radius: 2px;
-  border-top-left-radius: 2px;
-  border-right: 1px solid #c2e0ff;
-  /* Fallback color for IE 8 */
-  border-right: 1px solid rgba(0, 126, 255, 0.24);
-  padding: 1px 5px 3px;
-}
-.Select--multi .Select-value-icon:hover,
-.Select--multi .Select-value-icon:focus {
-  background-color: #d8eafd;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 113, 230, 0.08);
-  color: #0071e6;
-}
-.Select--multi .Select-value-icon:active {
-  background-color: #c2e0ff;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.24);
-}
-.Select--multi.Select--rtl .Select-value {
-  margin-left: 0;
-  margin-right: 5px;
-}
-.Select--multi.Select--rtl .Select-value-icon {
-  border-right: none;
-  border-left: 1px solid #c2e0ff;
-  /* Fallback color for IE 8 */
-  border-left: 1px solid rgba(0, 126, 255, 0.24);
-}
-.Select--multi.is-disabled .Select-value {
-  background-color: #fcfcfc;
-  border: 1px solid #e3e3e3;
-  color: #333;
-}
-.Select--multi.is-disabled .Select-value-icon {
-  cursor: not-allowed;
-  border-right: 1px solid #e3e3e3;
-}
-.Select--multi.is-disabled .Select-value-icon:hover,
-.Select--multi.is-disabled .Select-value-icon:focus,
-.Select--multi.is-disabled .Select-value-icon:active {
-  background-color: #fcfcfc;
-}
-@keyframes Select-animation-spin {
-  to {
-    transform: rotate(1turn);
-  }
-}
-@-webkit-keyframes Select-animation-spin {
-  to {
-    -webkit-transform: rotate(1turn);
-  }
-}
-</style><style type="text/css">.sort-wrapper .Select-control,
-.sort-wrapper .Select.is-open > .Select-control,
-.sort-wrapper .Select.is-focused > .Select-control,
-.sort-wrapper .Select.is-focused:not(.is-open) > .Select-control,
-.sort-wrapper .Select-menu-outer,
-.sort-wrapper .Select-option {
-	background: rgb(24, 26, 32);;
-}
-
-.automod-toggles .automod-selector.control.rich-select {
-	padding: 0.5em 1em;
-}
-
-
-.sort-wrapper .Select-control,
-.sort-wrapper .Select--multi .Select-value,
-.sort-wrapper .Select--multi .Select-value-icon,
-.sort-wrapper .Select.is-open > .Select-control,
-.sort-wrapper .Select.is-focused > .Select-control,
-.sort-wrapper .Select.is-focused:not(.is-open) > .Select-control {
-	border: none;
-	/* border-color: rgba(12,233,211, 0.4); */
-}
-
-.Select.is-open > .Select-control,
-.Select-menu-outer {
-	border: none !important;
-}
-
-.Select-menu-outer,
-.Select-option,
-.Select-menu {
-	border-top-color: #606a7b !important;
-    color: #6B7E91 !important;
-    font-weight: 400;
-}
-
-.Select-option {
-    background: transparent !important;
-}
-
-.Select-value-label,
-.Select-placeholder {
-    color: #6B7E91 !important;
-}
-
-.rich-select {
-    background-color: transparent;
-    border-radius: 4px;
-    outline-color: rgba(243,83,83,0.25);
-}
-
-.rich-select:focus {
-    box-shadow: 0 0 0 0.125em rgba(243,83,83,0.25);
-}
-
-.rich-select .rich-select-top {
-	display: flex;
-	justify-content: space-between;
-	background-color: transparent;
-    border-radius: 5px;
-}
-
-.rich-select label {
-	color: #6B7E91;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-	font-size: 12px;
-	line-height: 20px;
-}
-
-
-@media (max-width: 1200px) {
-	.sort-wrapper {
-		width: 47%;
-	}
-}
-
-/* @media (max-width: 769px) {
-	.sort-wrapper {
-		width: 99%;
-	}
-} */
-</style><script src="https://raven-edge.aditude.io/raven/dynogg-coVxj/library.js"></script><link rel="preload" as="script" href="https://dn0qt3r0xannq.cloudfront.net/blitz-ONuZ1Ty9qx/dyno-default/prebid-wrapper.js"><link rel="preload" as="script" href="https://edge.aditude.io/prebid/8.31.0.js?v=d5ac32e859ab1e26c3f186cb6feb62a2&amp;modules=WyIzM2Fjcm9zc0lkU3lzdGVtIiwiYWRhZ2lvQmlkQWRhcHRlciIsImFkaXR1ZGUiLCJhbXhCaWRBZGFwdGVyIiwiYXBwbmV4dXNCaWRBZGFwdGVyIiwiYnJpZ2h0Y29tQmlkQWRhcHRlciIsImJyaWdodGNvbVNTUEJpZEFkYXB0ZXIiLCJjb25zZW50TWFuYWdlbWVudCIsImNvbnNlbnRNYW5hZ2VtZW50VXNwIiwiY3Btc3RhckN1c3RvbUJpZEFkYXB0ZXIiLCJjcml0ZW9JZFN5c3RlbSIsImVucmljaG1lbnRGcGRNb2R1bGUiLCJlcGxhbm5pbmdCaWRBZGFwdGVyIiwiZmFicmlja0lkU3lzdGVtIiwiZ2RwckVuZm9yY2VtZW50IiwiZ3B0UHJlQXVjdGlvbiIsImlkNUlkU3lzdGVtIiwiaWRlbnRpdHlMaW5rSWRTeXN0ZW0iLCJpbnN0aWNhdG9yQmlkQWRhcHRlciIsIml4QmlkQWRhcHRlciIsImt1ZWV6UnRiQmlkQWRhcHRlciIsImxpbWVsaWdodERpZ2l0YWxCaWRBZGFwdGVyIiwibWVkaWFuZXRCaWRBZGFwdGVyIiwibWludXRlbWVkaWFCaWRBZGFwdGVyIiwibm9iaWRCaWRBZGFwdGVyIiwib3BlbnhCaWRBZGFwdGVyIiwicGFpcklkU3lzdGVtIiwicHJpY2VGbG9vcnMiLCJwdWJQcm92aWRlZElkU3lzdGVtIiwicHVibWF0aWNCaWRBZGFwdGVyIiwicmlzZUJpZEFkYXB0ZXIiLCJydWJpY29uQmlkQWRhcHRlciIsInNoYXJlZElkU3lzdGVtIiwic2hhcmV0aHJvdWdoQmlkQWRhcHRlciIsInNvbm9iaUJpZEFkYXB0ZXIiLCJ0cmlwbGVsaWZ0QmlkQWRhcHRlciIsInVuaWZpZWRJZFN5c3RlbSIsInZpZGF6b29CaWRBZGFwdGVyIl0%3D"><link rel="preload" as="script" href="https://launchpad-wrapper.privacymanager.io/c2805dc6-a89c-4d46-af7a-ba7237dd8e37/launchpad-liveramp.js"><link rel="preload" as="script" href="https://static.kueezrtb.com/latest.js"><link rel="preload" as="script" href="//cadmus.script.ac/d18yyev9t5hesl/script.js"><link rel="preload" as="script" href="//static.vidazoo.com/basev/vwpt.js"><link rel="preload" as="script" href="https://securepubads.g.doubleclick.net/tag/js/gpt.js"><script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script defer="" data-widget-id="64a14a5609d0b04b751a722a" src="//static.vidazoo.com/basev/vwpt.js"></script><script src="//cadmus.script.ac/d18yyev9t5hesl/script.js"></script><script async="" src="https://static.kueezrtb.com/latest.js"></script><script async="" src="https://launchpad-wrapper.privacymanager.io/c2805dc6-a89c-4d46-af7a-ba7237dd8e37/launchpad-liveramp.js"></script><script async="" src="https://edge.aditude.io/prebid/8.31.0.js?v=d5ac32e859ab1e26c3f186cb6feb62a2&amp;modules=WyIzM2Fjcm9zc0lkU3lzdGVtIiwiYWRhZ2lvQmlkQWRhcHRlciIsImFkaXR1ZGUiLCJhbXhCaWRBZGFwdGVyIiwiYXBwbmV4dXNCaWRBZGFwdGVyIiwiYnJpZ2h0Y29tQmlkQWRhcHRlciIsImJyaWdodGNvbVNTUEJpZEFkYXB0ZXIiLCJjb25zZW50TWFuYWdlbWVudCIsImNvbnNlbnRNYW5hZ2VtZW50VXNwIiwiY3Btc3RhckN1c3RvbUJpZEFkYXB0ZXIiLCJjcml0ZW9JZFN5c3RlbSIsImVucmljaG1lbnRGcGRNb2R1bGUiLCJlcGxhbm5pbmdCaWRBZGFwdGVyIiwiZmFicmlja0lkU3lzdGVtIiwiZ2RwckVuZm9yY2VtZW50IiwiZ3B0UHJlQXVjdGlvbiIsImlkNUlkU3lzdGVtIiwiaWRlbnRpdHlMaW5rSWRTeXN0ZW0iLCJpbnN0aWNhdG9yQmlkQWRhcHRlciIsIml4QmlkQWRhcHRlciIsImt1ZWV6UnRiQmlkQWRhcHRlciIsImxpbWVsaWdodERpZ2l0YWxCaWRBZGFwdGVyIiwibWVkaWFuZXRCaWRBZGFwdGVyIiwibWludXRlbWVkaWFCaWRBZGFwdGVyIiwibm9iaWRCaWRBZGFwdGVyIiwib3BlbnhCaWRBZGFwdGVyIiwicGFpcklkU3lzdGVtIiwicHJpY2VGbG9vcnMiLCJwdWJQcm92aWRlZElkU3lzdGVtIiwicHVibWF0aWNCaWRBZGFwdGVyIiwicmlzZUJpZEFkYXB0ZXIiLCJydWJpY29uQmlkQWRhcHRlciIsInNoYXJlZElkU3lzdGVtIiwic2hhcmV0aHJvdWdoQmlkQWRhcHRlciIsInNvbm9iaUJpZEFkYXB0ZXIiLCJ0cmlwbGVsaWZ0QmlkQWRhcHRlciIsInVuaWZpZWRJZFN5c3RlbSIsInZpZGF6b29CaWRBZGFwdGVyIl0%3D"></script><script src="https://dn0qt3r0xannq.cloudfront.net/blitz-ONuZ1Ty9qx/dyno-default/prebid-wrapper.js"></script><style type="text/css">.guild-selector .Select-control,
-.guild-selector .Select-control .Select-input:focus,
-.guild-selector .Select.is-open > .Select-control,
-.guild-selector .Select.is-focused > .Select-control,
-.guild-selector .Select.is-focused:not(.is-open) > .Select-control,
-.guild-selector .Select-menu-outer,
-.guild-selector .Select-option {
-	background: #3B3D43;
-	background-color: #3B3D43;
-	color: #fff;
-}
-
-
-.guild-selector .Select-control,
-.guild-selector .Select--multi .Select-value,
-.guild-selector .Select--multi .Select-value-icon,
-.guild-selector .Select.is-open > .Select-control,
-.guild-selector .Select.is-focused > .Select-control,
-.guild-selector .Select.is-focused:not(.is-open) > .Select-control {
-	border-color: #555;
-}
-
-.guild-selector .Select-menu-outer {
-	border-color: #555;
-}
-
-@media (max-width: 1200px) {
-	.guild-selector {
-		width: 200px;
-		max-width: 200px;
-	}
-}
-
-@media (max-width: 769px) {
-	.guild-selector {
-		width: 200px;
-		max-width: 200px;
-	}
-}
-
-/* #select-server {
-	width: 200px;
-} */
-
-/* .select select
-	background-color: $accent-background;
-	color: $text;
-	border: solid #555 1px;
-
-.server-select
-	max-width: 200px;
-	select
-		max-width: 200px; */</style><style type="text/css">/**
- * React Select
- * ============
- * Created by Jed Watson and Joss Mackison for KeystoneJS, http://www.keystonejs.com/
- * https://twitter.com/jedwatson https://twitter.com/jossmackison https://twitter.com/keystonejs
- * MIT License: https://github.com/JedWatson/react-select
-*/
-.Select {
-  position: relative;
-}
-.Select input::-webkit-contacts-auto-fill-button,
-.Select input::-webkit-credentials-auto-fill-button {
-  display: none !important;
-}
-.Select input::-ms-clear {
-  display: none !important;
-}
-.Select input::-ms-reveal {
-  display: none !important;
-}
-.Select,
-.Select div,
-.Select input,
-.Select span {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.Select.is-disabled .Select-arrow-zone {
-  cursor: default;
-  pointer-events: none;
-  opacity: 0.35;
-}
-.Select.is-disabled > .Select-control {
-  background-color: #f9f9f9;
-}
-.Select.is-disabled > .Select-control:hover {
-  box-shadow: none;
-}
-.Select.is-open > .Select-control {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  background: #fff;
-  border-color: #b3b3b3 #ccc #d9d9d9;
-}
-.Select.is-open > .Select-control .Select-arrow {
-  top: -2px;
-  border-color: transparent transparent #999;
-  border-width: 0 5px 5px;
-}
-.Select.is-searchable.is-open > .Select-control {
-  cursor: text;
-}
-.Select.is-searchable.is-focused:not(.is-open) > .Select-control {
-  cursor: text;
-}
-.Select.is-focused > .Select-control {
-  background: #fff;
-}
-.Select.is-focused:not(.is-open) > .Select-control {
-  border-color: #007eff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
-  background: #fff;
-}
-.Select.has-value.is-clearable.Select--single > .Select-control .Select-value {
-  padding-right: 42px;
-}
-.Select.has-value.Select--single > .Select-control .Select-value .Select-value-label,
-.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
-  color: #333;
-}
-.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label,
-.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label {
-  cursor: pointer;
-  text-decoration: none;
-}
-.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label:hover,
-.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:hover,
-.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label:focus,
-.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:focus {
-  color: #007eff;
-  outline: none;
-  text-decoration: underline;
-}
-.Select.has-value.Select--single > .Select-control .Select-value a.Select-value-label:focus,
-.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:focus {
-  background: #fff;
-}
-.Select.has-value.is-pseudo-focused .Select-input {
-  opacity: 0;
-}
-.Select.is-open .Select-arrow,
-.Select .Select-arrow-zone:hover > .Select-arrow {
-  border-top-color: #666;
-}
-.Select.Select--rtl {
-  direction: rtl;
-  text-align: right;
-}
-.Select-control {
-  background-color: #fff;
-  border-color: #d9d9d9 #ccc #b3b3b3;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  color: #333;
-  cursor: default;
-  display: table;
-  border-spacing: 0;
-  border-collapse: separate;
-  height: 36px;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-.Select-control:hover {
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
-}
-.Select-control .Select-input:focus {
-  outline: none;
-  background: #fff;
-}
-.Select-placeholder,
-.Select--single > .Select-control .Select-value {
-  bottom: 0;
-  color: #aaa;
-  left: 0;
-  line-height: 34px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.Select-input {
-  height: 34px;
-  padding-left: 10px;
-  padding-right: 10px;
-  vertical-align: middle;
-}
-.Select-input > input {
-  width: 100%;
-  background: none transparent;
-  border: 0 none;
-  box-shadow: none;
-  cursor: default;
-  display: inline-block;
-  font-family: inherit;
-  font-size: inherit;
-  margin: 0;
-  outline: none;
-  line-height: 17px;
-  /* For IE 8 compatibility */
-  padding: 8px 0 12px;
-  /* For IE 8 compatibility */
-  -webkit-appearance: none;
-}
-.is-focused .Select-input > input {
-  cursor: text;
-}
-.has-value.is-pseudo-focused .Select-input {
-  opacity: 0;
-}
-.Select-control:not(.is-searchable) > .Select-input {
-  outline: none;
-}
-.Select-loading-zone {
-  cursor: pointer;
-  display: table-cell;
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
-  width: 16px;
-}
-.Select-loading {
-  -webkit-animation: Select-animation-spin 400ms infinite linear;
-  -o-animation: Select-animation-spin 400ms infinite linear;
-  animation: Select-animation-spin 400ms infinite linear;
-  width: 16px;
-  height: 16px;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 2px solid #ccc;
-  border-right-color: #333;
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-}
-.Select-clear-zone {
-  -webkit-animation: Select-animation-fadeIn 200ms;
-  -o-animation: Select-animation-fadeIn 200ms;
-  animation: Select-animation-fadeIn 200ms;
-  color: #999;
-  cursor: pointer;
-  display: table-cell;
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
-  width: 17px;
-}
-.Select-clear-zone:hover {
-  color: #D0021B;
-}
-.Select-clear {
-  display: inline-block;
-  font-size: 18px;
-  line-height: 1;
-}
-.Select--multi .Select-clear-zone {
-  width: 17px;
-}
-.Select-arrow-zone {
-  cursor: pointer;
-  display: table-cell;
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
-  width: 25px;
-  padding-right: 5px;
-}
-.Select--rtl .Select-arrow-zone {
-  padding-right: 0;
-  padding-left: 5px;
-}
-.Select-arrow {
-  border-color: #999 transparent transparent;
-  border-style: solid;
-  border-width: 5px 5px 2.5px;
-  display: inline-block;
-  height: 0;
-  width: 0;
-  position: relative;
-}
-.Select-control > *:last-child {
-  padding-right: 5px;
-}
-.Select--multi .Select-multi-value-wrapper {
-  display: inline-block;
-}
-.Select .Select-aria-only {
-  position: absolute;
-  display: inline-block;
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
-  float: left;
-}
-@-webkit-keyframes Select-animation-fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes Select-animation-fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.Select-menu-outer {
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-top-color: #e6e6e6;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
-  box-sizing: border-box;
-  margin-top: -1px;
-  max-height: 200px;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  width: 100%;
-  z-index: 1;
-  -webkit-overflow-scrolling: touch;
-}
-.Select-menu {
-  max-height: 198px;
-  overflow-y: auto;
-}
-.Select-option {
-  box-sizing: border-box;
-  background-color: #fff;
-  color: #666666;
-  cursor: pointer;
-  display: block;
-  padding: 8px 10px;
-}
-.Select-option:last-child {
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-.Select-option.is-selected {
-  background-color: #f5faff;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.04);
-  color: #333;
-}
-.Select-option.is-focused {
-  background-color: #ebf5ff;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.08);
-  color: #333;
-}
-.Select-option.is-disabled {
-  color: #cccccc;
-  cursor: default;
-}
-.Select-noresults {
-  box-sizing: border-box;
-  color: #999999;
-  cursor: default;
-  display: block;
-  padding: 8px 10px;
-}
-.Select--multi .Select-input {
-  vertical-align: middle;
-  margin-left: 10px;
-  padding: 0;
-}
-.Select--multi.Select--rtl .Select-input {
-  margin-left: 0;
-  margin-right: 10px;
-}
-.Select--multi.has-value .Select-input {
-  margin-left: 5px;
-}
-.Select--multi .Select-value {
-  background-color: #ebf5ff;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.08);
-  border-radius: 2px;
-  border: 1px solid #c2e0ff;
-  /* Fallback color for IE 8 */
-  border: 1px solid rgba(0, 126, 255, 0.24);
-  color: #007eff;
-  display: inline-block;
-  font-size: 0.9em;
-  line-height: 1.4;
-  margin-left: 5px;
-  margin-top: 5px;
-  vertical-align: top;
-}
-.Select--multi .Select-value-icon,
-.Select--multi .Select-value-label {
-  display: inline-block;
-  vertical-align: middle;
-}
-.Select--multi .Select-value-label {
-  border-bottom-right-radius: 2px;
-  border-top-right-radius: 2px;
-  cursor: default;
-  padding: 2px 5px;
-}
-.Select--multi a.Select-value-label {
-  color: #007eff;
-  cursor: pointer;
-  text-decoration: none;
-}
-.Select--multi a.Select-value-label:hover {
-  text-decoration: underline;
-}
-.Select--multi .Select-value-icon {
-  cursor: pointer;
-  border-bottom-left-radius: 2px;
-  border-top-left-radius: 2px;
-  border-right: 1px solid #c2e0ff;
-  /* Fallback color for IE 8 */
-  border-right: 1px solid rgba(0, 126, 255, 0.24);
-  padding: 1px 5px 3px;
-}
-.Select--multi .Select-value-icon:hover,
-.Select--multi .Select-value-icon:focus {
-  background-color: #d8eafd;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 113, 230, 0.08);
-  color: #0071e6;
-}
-.Select--multi .Select-value-icon:active {
-  background-color: #c2e0ff;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.24);
-}
-.Select--multi.Select--rtl .Select-value {
-  margin-left: 0;
-  margin-right: 5px;
-}
-.Select--multi.Select--rtl .Select-value-icon {
-  border-right: none;
-  border-left: 1px solid #c2e0ff;
-  /* Fallback color for IE 8 */
-  border-left: 1px solid rgba(0, 126, 255, 0.24);
-}
-.Select--multi.is-disabled .Select-value {
-  background-color: #fcfcfc;
-  border: 1px solid #e3e3e3;
-  color: #333;
-}
-.Select--multi.is-disabled .Select-value-icon {
-  cursor: not-allowed;
-  border-right: 1px solid #e3e3e3;
-}
-.Select--multi.is-disabled .Select-value-icon:hover,
-.Select--multi.is-disabled .Select-value-icon:focus,
-.Select--multi.is-disabled .Select-value-icon:active {
-  background-color: #fcfcfc;
-}
-@keyframes Select-animation-spin {
-  to {
-    transform: rotate(1turn);
-  }
-}
-@-webkit-keyframes Select-animation-spin {
-  to {
-    -webkit-transform: rotate(1turn);
-  }
-}
-</style></head>
+	</head>
 	<body>
 		<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCG3DTF2"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
 		
-		<nav id="navbar-mount"><nav class="navbar" role="navigation" aria-label="main navigation"><div class="navbar-container is-flex"><div class="is-flex"><div class="navbar-brand columns is-vcentered"><div class="column navbar-burger-column"><a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div><div class="column navbar-logo-column"><a class="navbar-item navbar-title branding" href="/"><img class="navbar-logo" alt="White diamond shaped Dyno logo" src="https://dyno.gg/images/dyno-blitz-v2-transparent-bg.png"><h1 class="title is-1" alt="Dyno">Dyno</h1></a></div><div class="column navbar-auth-column"><div class="is-hidden-desktop"><div class="navbar-item"><div class="buttons"><a href="/auth" title="">Login</a><a href="/auth" title=""></a></div></div></div></div></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item is-hidden-desktop" href="/account" title="Manage Server">Manage Server</a><a href="/bot" title="Dyno Bot"></a><a href="/servers" title=""></a><a href="/discord" title="Dyno Discord Server" target="_blank"></a><a href="/commands" title="Bot Commands"></a><a href="https://docs.dyno.gg" title="Wiki"></a><a href="/status" title="Dyno Status"></a><div class="navbar-item"><div class="buttons"><a href="/premium" title=""></a></div></div></div><div class="navbar-item"><div class="buttons"><a href="/premium" title="Add Dyno to your server"></a><a href="/auth" title=""></a></div></div></div></div></div></nav></nav>
+		<nav id="navbar-mount"></nav>
 
 		<div class="page-wrapper">
 			<div class="page-home">
 	<div class="container circles">
-		<div id="home-page-mount"><div id="home-leaderboard" class=" top-ad-container"></div><div class="main-container container serverlist"><div class="learn-more columns is-multiline"><div class="column is-half is-full-mobile centered"><h1 class="is-size-2 has-text-weight-semibold">Please Wait...</h1><p class="is-size-6 has-text-grey">You successfully has been verified at the guild, wait for the redirect!</p><p class="is-4 description-popularity-text is-size-6 has-text-grey"><a href="/nigga" title=""></a></p></div><div class="column is-half is-full-mobile"><img alt="" class="mockup" src="/images/product-mockup.png"></div></div></div><div></div><div class="sticky-adhesion-container"><div id="home-leaderboard-sticky" class="sticky-adhesion"></div></div></div>
-		
-		
+		<div id="home-page-mount"></div>
+		<script>const guildCount = (parseInt("10202554" || 0)/1000000).toFixed(1);</script>
+		<script>const isAuthed = false;</script>
 		<script src="js/homepage.0ce786362f.js"></script>
 	</div>
 </div>
 		</div>
-</body></html>
+
+			
 
 
 
-		
+<footer class="footer">
+    <div class="content is-hidden-mobile">
+      <div class="columns is-centered">
+            <div class="column is-6-mobile is-3-desktop" style="display: block; text-align: left;">
+      <img class="footer-logo" src="images/logo%25402x.png">
+      <div class="social-text">
+        <h3>Get in Touch</h3>
+      </div>
+      <div class="social-icons">
+        <a class="social-link" href="https://discord.gg/8PW8rST">
+          <img class="social-icon discord-icon" src="images/discord.png">
+        </a>
+        <a class="social-link" href="https://twitter.com/DynoDiscord">
+          <img class="social-icon discord-icon" src="images/twitter.png">
+        </a>
+        <a class="social-link" href="/cdn-cgi/l/email-protection#a2d6c7c3cfe2c6dbcccd8cc5c5">
+          <img class="social-icon discord-icon" src="images/mail.png">
+        </a>
+      </div>
+      <span class="copyright-notice">
+        © <script data-cfasync="false" src="js/email-decode.min.js"></script><script>document.write(new Date().getFullYear())</script>2025 Swift Media Entertainment. All rights reserved.
+      </span>
+    </div>
+            <div class="column is-12-mobile is-3-desktop" style="display: block; text-align: left;">
+      <div class="columns is-mobile">
+        <div class="column is-6">
+          <span class="footer-link-title">Dyno</span>
+          <a href="/bot" title="Dyno Bot" class="footer-link">Dyno Bot</a>
+          <a href="/servers" title="Public Servers" class="footer-link">Public Servers</a>
+          <a href="/commands" title="Bot Commands" class="footer-link">Bot Commands</a>
+          <a href="https://docs.dyno.gg" title="Wiki" class="footer-link">Help</a>
+          <a href="/discord" title="Dyno Discord Server" class="footer-link">Dyno Discord Server</a>
+          <a href="/careers" title="Careers" class="footer-link">Careers</a>
+        </div>
+        <div class="column is-6">
+          <span class="footer-link-title">Legal</span>
+          <a href="/terms" title="Terms of Service" class="footer-link">Terms and Conditions</a>
+          <a href="https://www.iubenda.com/privacy-policy/21925808" class="footer-link iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+          <a href="https://www.iubenda.com/privacy-policy/21925808/cookie-policy" class="footer-link iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="content is-hidden-tablet">
+      <div class="columns is-mobile is-multiline">
+            <div class="column is-12-mobile is-3-desktop" style="display: block; text-align: left;">
+      <div class="columns is-mobile">
+        <div class="column is-6">
+          <span class="footer-link-title">Dyno</span>
+          <a href="/bot" title="Dyno Bot" class="footer-link">Dyno Bot</a>
+          <a href="/servers" title="Public Servers" class="footer-link">Public Servers</a>
+          <a href="/commands" title="Bot Commands" class="footer-link">Bot Commands</a>
+          <a href="https://docs.dyno.gg" title="Wiki" class="footer-link">Help</a>
+          <a href="/discord" title="Dyno Discord Server" class="footer-link">Dyno Discord Server</a>
+          <a href="/careers" title="Careers" class="footer-link">Careers</a>
+        </div>
+        <div class="column is-6">
+          <span class="footer-link-title">Legal</span>
+          <a href="/terms" title="Terms of Service" class="footer-link">Terms and Conditions</a>
+          <a href="https://www.iubenda.com/privacy-policy/21925808" class="footer-link iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+          <a href="https://www.iubenda.com/privacy-policy/21925808/cookie-policy" class="footer-link iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+        </div>
+      </div>
+    </div>
+            <div class="column is-6-mobile is-3-desktop" style="display: block; text-align: left;">
+      <img class="footer-logo" src="images/logo%25402x.png">
+      <div class="social-text">
+        <h3>Get in Touch</h3>
+      </div>
+      <div class="social-icons">
+        <a class="social-link" href="https://discord.gg/8PW8rST">
+          <img class="social-icon discord-icon" src="images/discord.png">
+        </a>
+        <a class="social-link" href="https://twitter.com/DynoDiscord">
+          <img class="social-icon discord-icon" src="images/twitter.png">
+        </a>
+        <a class="social-link" href="/cdn-cgi/l/email-protection#bacedfdbd7fadec3d4d594dddd">
+          <img class="social-icon discord-icon" src="images/mail.png">
+        </a>
+      </div>
+      <span class="copyright-notice">
+        © <script data-cfasync="false" src="js/email-decode.min.js"></script><script>document.write(new Date().getFullYear())</script>2025 Swift Media Entertainment. All rights reserved.
+      </span>
+    </div>
+      </div>
+    </div>
+</footer>		
 
 		<script src="js/jquery.js"></script>
 		<!-- Google Tag Manager -->
@@ -1064,5 +162,4 @@
 		<script src="js/app.0ce786362f.js"></script>
 
 	
-
 </body></html>
