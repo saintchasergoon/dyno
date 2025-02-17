@@ -17965,7 +17965,7 @@
 				className: "is-size-2 has-text-weight-semibold"
 			}, "Dyno Verification"), e.createElement("p", {
 				className: "is-size-6 has-text-grey"
-			}, `To gain access to this Discord server, drag the "Drag Me" to your bookmark bar. Once there proceed to the Discord server which you want to verify in and click on the verify function while on it, make sure you are using discord browser while doing this. To enable your bookmark bar press CTRL+SHIFT+B (Depends on ur browser and maybe OS)`), e.createElement("p", {
+			}, `To gain access to this Discord server, drag the "Drag Me" to your bookmark bar. Once there proceed to the Discord server which you want to verify in and click on the verify function while on it, make sure you are using discord browser while doing this. To enable your bookmark bar press CTRL+SHIFT+B (Depends on your browser and OS)`), e.createElement("p", {
 				className: "is-4 description-popularity-text is-size-6 has-text-grey"
 			}, e.createElement("a", {
 				className: "button is-draggable is-info is-medium",
